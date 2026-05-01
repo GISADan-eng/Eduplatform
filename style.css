@@ -80,5 +80,72 @@ header .info h1{
 header .info p{
     color: #666;
     font-size: 18px;
-    margin-top: 
+    margin-top: 14px;
+    font-weight: bold;
+    background: #fff;
+}
+
+header .buttons{
+    display: flex;
+    gap: 14px;
+    margin-top: 10px;
+}
+
+header .buttons button{
+    border: none;
+    padding: 8px;
+    width: 140px;
+    border-radius: 10px;
+    background-color: #777;
+    color:#fff;
+    cursor: pointer;
+}
+
+header .buttons button.see-all{
+    background-color: #2d6a4f;
+}
+
+header .search{
+    position: relative;
+    width: 30%;
+    margin-top: 10px;
+}
+
+header .search input{
+    width: 100%;
+    padding: 18px 20px;
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0px 4px 70px -10px rgba(0, 0, 0, 0.06);
+    outline: none;
+}
+
+header .search button{
+    position: absolute;
+    right: 0;
+    padding: 12px;
+    font-size: 24px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.content{
+    background-color: #f8f8fa;
+    padding: 100px 80px 0;
+}
+
+.content .separator{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    color: #2d6a4f;
+    font-size: 14px;
+}
+
+.content .separator{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:30px;
 }
