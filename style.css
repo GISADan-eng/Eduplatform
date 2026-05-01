@@ -149,3 +149,16 @@ header .search button{
     justify-content: space-between;
     margin-bottom:30px;
 }
+
+.content .separator a,
+.content .articles .item .bottom a{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    padding: 6px 12px;
+    background-color: #eaf4f4;
+    color: #2d6a4f;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: bold;
+}
