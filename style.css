@@ -37,7 +37,11 @@ nav .left{
     gap: 20px;
 }
 
-/*nav .left .logo img*/
+nav .left .logo img{
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+}
 
 nav .left .links{
     display: flex;
@@ -83,7 +87,7 @@ header .info p{
     margin-top: 14px;
     font-weight: bold;
     background: #fff;
-}
+} 
 
 header .buttons{
     display: flex;
@@ -155,9 +159,11 @@ header .search button{
     display: flex;
     align-items: center;
     gap: 2px;
-    padding: 6px 12px;
-    background-color: #eaf4f4;
     color: #2d6a4f;
     font-size: 14px;
-    font-weight: bold;
+}
+
+.content .separator a i,
+.content .articles .item .bottom a i{
+    font-size: 18px;
 }
